@@ -4,10 +4,6 @@ public class class2 {
 	
     private class1 root;
 
-    
-
-    /* Constructor */
-
     public class2()
 
     {
@@ -16,7 +12,7 @@ public class class2 {
 
     }
 
-    /* Function to check if tree is empty */
+    // tree is checked for info
 
     public boolean isEmpty()
 
@@ -26,7 +22,7 @@ public class class2 {
 
     }
 
-    /* Functions to insert data */
+    // data insertions
 
     public void insert(int data)
 
@@ -36,7 +32,7 @@ public class class2 {
 
     }
 
-    /* Function to insert data recursively */
+    // allows for further input
 
     private class1 insert(class1 node, int data)
 
@@ -64,7 +60,7 @@ public class class2 {
 
     }
 
-    /* Functions to delete data */
+    // delete
 
     public void delete(int k)
 
@@ -174,7 +170,7 @@ public class class2 {
 
     }
 
-    /* Functions to count number of nodes */
+    // count
 
     public int countNodes()
 
@@ -184,7 +180,7 @@ public class class2 {
 
     }
 
-    /* Function to count number of nodes recursively */
+    // count again
 
     private int countNodes(class1 r)
 
@@ -210,7 +206,7 @@ public class class2 {
 
     }
 
-    /* Functions to search for an element */
+    // number is searched
 
     public boolean search(int val)
 
@@ -220,7 +216,7 @@ public class class2 {
 
     }
 
-    /* Function to search for an element recursively */
+    // continues to be searched
 
     private boolean search(class1 r, int val)
 
@@ -260,7 +256,7 @@ public class class2 {
 
     }
 
-    /* Function for inorder traversal */
+    // nodes are inorder
 
     public void inorder()
 
@@ -288,7 +284,7 @@ public class class2 {
 
     }
 
-    /* Function for preorder traversal */
+    // nodes in preorder
 
     public void preorder()
 
@@ -316,7 +312,7 @@ public class class2 {
 
     }
 
-    /* Function for postorder traversal */
+    // nodes postordered
 
     public void postorder()
 

@@ -38,22 +38,14 @@ public class class1 {
 
          public void setLeft(class1 n)
 
-         {
-
-             left = n;
-
-         }
+         {left = n; }
 
          // sets the right node 
 
          public void setRight(class1 n)
 
-         {
-
-             right = n;
-
-         }
-
+         {right = n;}
+             
          // Retrieves left node
 
          public class1 getLeft()
@@ -74,7 +66,7 @@ public class class1 {
 
          }
 
-         /* Function to set data to node */
+         // info is placed in correct node
 
          public void setData(int d)
 
@@ -84,7 +76,7 @@ public class class1 {
 
          }
 
-         /* Function to get data from node */
+         // info is retrieved from correct node
 
          public int getData()
 
