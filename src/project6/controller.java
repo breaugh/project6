@@ -1,5 +1,12 @@
 package project6;
-
+/*/project6
+ * Professor Marshall
+ * Credit: Anna, and Subin
+ * may-12-2015
+ * 
+ * 
+ * 
+ */
 import java.util.InputMismatchException;
 import java.util.Scanner;
  
@@ -30,7 +37,7 @@ import java.util.Scanner;
 
 		            System.out.println("4. count the nodes");
 
-		            System.out.println("5. check empty"); 
+		            System.out.println("5. check the tree for nodes"); 
 
 		 
 
